@@ -1,0 +1,1 @@
+ALTER TYPE "public"."user_token_purpose" ADD VALUE 'account_deletion';

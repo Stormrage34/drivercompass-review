@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "review_responses_one_per_review" ON "review_responses" USING btree ("review_id");

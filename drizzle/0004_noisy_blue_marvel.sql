@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "companies_real_registration_unique" ON "companies" USING btree ("country","registration_number") WHERE "companies"."is_demo_seed" = false;
